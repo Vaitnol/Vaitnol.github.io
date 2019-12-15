@@ -25,8 +25,8 @@ html {
     background-repeat: no-repeat;
 }
 .profile-info {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 24px;
+    padding-right: 15px;
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -46,7 +46,6 @@ html {
 .heading-light {
     color: indianred;
     border-bottom: 2px black dashed;
-    margin-left: 27px;
 }
 .contacts {
     margin-bottom: 70px;
@@ -106,6 +105,9 @@ address {
 .language-procent {
     font-size: 15px;
     font-weight: 600;
+}
+.personality {
+    padding: 20px;
 }
 .lines {
     display: flex;
@@ -203,11 +205,15 @@ address {
     color: #777777;
     font-size: 10px;
 }
+.education h2 {
+    margin-top: 30px;
+    padding-bottom: 10px;
+}
 .heading_dark {
     font-size: 16px;
     font-weight: 400;
     border-bottom: 1px solid rgba(168, 168, 168, 0.44);
-    margin-bottom: 37px;
+    margin-bottom: 12px;
 }
 .list {
     list-style: none;
@@ -215,9 +221,9 @@ address {
 }
 .list-item{
     position: relative;
-    padding-left: 40px;
-    padding-bottom: 30px;
-    margin-bottom: 30px;
+    padding-left: 0px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
     border-bottom: 2px dashed grey;
 
 }
@@ -231,7 +237,7 @@ address {
     border-radius: 50%;
 }
 .list-item__title {
-    font-size: 11px;
+    font-size: 17px;
     text-transform: uppercase;
     margin-bottom: 5px;
 }
@@ -276,14 +282,23 @@ address {
     height: 100%; 
     background-color: #898989;
 }
-.level-80::before{
-    width: 80%;
+.level-60::before{
+    width: 60%;
 }
-.level-90::before{
-    width: 90%;
+.level-40::before{
+    width: 40%;
 }
 .level-50::before{
     width: 50%;
+}
+.level-40::before{
+    width: 40%;
+}
+.level-15::before{
+    width: 15%;
+}
+.level-30::before{
+    width: 30%;
 }
 @media (max-width: 1024px) {
     .container {
